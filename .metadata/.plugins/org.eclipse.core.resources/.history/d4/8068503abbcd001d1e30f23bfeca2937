@@ -26,7 +26,7 @@ public class DataTypes {
 		//5. String ( String is a class)
 		String s1 = "Java";
 		String s2 = "Java Basics";
-	
+		
 	}
 
 }
