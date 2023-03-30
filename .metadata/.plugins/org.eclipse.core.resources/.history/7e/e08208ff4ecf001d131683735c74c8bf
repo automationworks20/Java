@@ -9,7 +9,7 @@ public class DataTypes {
 		int j = 20;
 		int k =30;
 		
-		//2. Double:
+		//2. double:
 		double d = 12.33;
 		double d1 = 34.14;
 		double d2 = 100;
