@@ -19,7 +19,7 @@ public class StringConcatenation {
 		
 		System.out.println("Value of a: " +a);
 		System.out.println("Value of b: " +b);
-		System.out.println("The addition of a and b: " +(a+b));
+		System.out.println("The addition of a and b: " +(a+b) );
 	}
 
 }
