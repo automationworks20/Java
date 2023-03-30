@@ -1,0 +1,15 @@
+package JavaBase;
+
+public class ArrayConcept {
+
+	public static void main(String[] args) {
+
+	 //array: to store similar data types in array variable
+	 int i[]= new int[4]; //4 is size of array
+	 
+	 
+	 
+		
+	}
+
+}

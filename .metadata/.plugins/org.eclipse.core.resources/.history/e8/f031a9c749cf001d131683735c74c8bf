@@ -19,7 +19,7 @@ public class IncrementAndDecrementOperator {
 		System.out.println("value of a: " +a);
 		System.out.println("value of b: " +b );
 	
-		int m = 2 ;
+		int m = 2;
 		int n = m--; //post decrement
 		
 		System.out.println("value of m: " +m);
