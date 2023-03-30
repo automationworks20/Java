@@ -4,10 +4,8 @@ public class IfElseConcept {
 
 	public static void main(String[] args) {
 	
-		//Comparison operators 
-		// < > <= >= == !=
-		
-		// if else
+	//Comparison operators 
+	// < > <= >= == !=
 		int a = 10;
 		int b = 20;
 	
@@ -27,8 +25,8 @@ public class IfElseConcept {
 		else {
 			System.out.println("c and d are not equal");
 	}
-		
-		// else if
+  
+	
 		int a1 = 100;
 		int b1 = 500;
 		int c1 = 300;
