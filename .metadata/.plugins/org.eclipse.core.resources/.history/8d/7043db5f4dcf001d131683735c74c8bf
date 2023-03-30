@@ -4,11 +4,11 @@ public class IncrementAndDecrementOperator {
 
 	public static void main(String[] args) {
 		
-		// i++ Post Increment
-		// ++i Pre Increment
+		//++
+		//--
 		
 		int i = 1;
-		int j = i++; // post increment 
+		int j = i++; // post increment
 		
 		System.out.println("value of i: " +i);
 		System.out.println("value of j: " +j);
