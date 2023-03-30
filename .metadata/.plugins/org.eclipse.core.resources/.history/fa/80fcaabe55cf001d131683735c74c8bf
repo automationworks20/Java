@@ -1,0 +1,14 @@
+package OOPConceptsPart1;
+
+public class Car {
+
+	//Class variables:
+	int model;
+	int wheel;
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

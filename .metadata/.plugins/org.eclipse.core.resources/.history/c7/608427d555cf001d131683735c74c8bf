@@ -1,0 +1,21 @@
+package OOPConceptsPart1;
+
+public class Car {
+
+	//Class variables:
+	int model;
+	int wheel;
+	
+	public static void main(String[] args) {
+		
+		Car a = new Car();
+		Car b = new Car();
+		Car c = new Car();
+		
+		a.model = 2022;
+		a.wheel = 4;
+		
+		
+	}
+
+}
