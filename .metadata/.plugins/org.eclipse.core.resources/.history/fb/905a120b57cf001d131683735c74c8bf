@@ -10,7 +10,6 @@ public class Car {
 		
 		// new car() is the object of the Car Class
 		// a,b,c are the object referring variables
-		// new keyword is used to create the object
 		
 		Car a = new Car();
 		Car b = new Car();
@@ -25,8 +24,6 @@ public class Car {
 		c.model = 2020;
 		c.wheel = 4;
 		
-		System.out.println("Before assigning the references");
-		
 		System.out.println(a.model);
 		System.out.println(a.wheel);
 		
@@ -35,20 +32,6 @@ public class Car {
 		
 		System.out.println(c.model);
 		System.out.println(c.wheel);
-
-		System.out.println("After assigning the references");
-	
-		a=b;
-		b=c;
-		c=a;
-		
-		a.model = 10;
-		System.out.println(a.model); //10
-		c.model = 20;
-		System.out.println(a.model); //20
-		System.out.println(c.model); //20
-
-	
 	}
 
 }

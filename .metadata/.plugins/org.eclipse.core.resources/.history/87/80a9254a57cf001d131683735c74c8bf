@@ -38,16 +38,6 @@ public class Car {
 
 		System.out.println("After assigning the references");
 	
-		a=b;
-		b=c;
-		c=a;
-		
-		a.model = 10;
-		System.out.println(a.model); //10
-		c.model = 20;
-		System.out.println(a.model); //20
-		System.out.println(c.model); //20
-
 	
 	}
 
