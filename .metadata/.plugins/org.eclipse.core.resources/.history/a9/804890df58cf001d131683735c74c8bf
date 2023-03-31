@@ -1,0 +1,31 @@
+package OOPConceptsPart1;
+
+public class FunctionsInJava {
+
+	public static void main(String[] args) {
+
+	}
+
+	// non static methods
+	
+	// void -- does not return any value
+	public void test() {
+		System.out.println("Test Method");
+	}
+	
+	// return type needs to be mentioned i.e int
+	public int pqr() {
+		System.out.println("PRQ Method");
+		int a = 10;
+		int b = 20;
+		int c = a+b;
+		
+		return c;
+ 	}
+	
+	public void qa() {
+		System.out.println("QA Method");
+		String s = "Selenium";
+	}
+	
+}

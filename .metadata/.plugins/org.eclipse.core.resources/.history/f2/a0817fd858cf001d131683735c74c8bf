@@ -1,0 +1,26 @@
+package OOPConceptsPart1;
+
+public class FunctionsInJava {
+
+	public static void main(String[] args) {
+
+	}
+
+	// non static methods
+	
+	public void test() {
+		System.out.println("Test Method");
+		
+	}
+	public int pqr() {
+		System.out.println("PRQ Method");
+		int a = 10;
+		int b = 20;
+		int c = a+b;
+		
+		return c;
+		
+	}
+	
+	
+}
