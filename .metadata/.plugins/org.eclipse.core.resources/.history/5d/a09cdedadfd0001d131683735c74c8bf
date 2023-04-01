@@ -1,0 +1,14 @@
+package OOPConceptsPart2;
+
+public class TestCar {
+
+	public static void main(String[] args) {
+
+		BMW b = new BMW();
+		b.start(); // It will use child class method and not from parent class
+		b.stop();
+		b.refuel();
+		
+	}
+
+}

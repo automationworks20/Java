@@ -1,0 +1,15 @@
+package OOPConceptsPart2;
+
+public class TestCar {
+
+	public static void main(String[] args) {
+
+		BMW b = new BMW();
+		b.start(); // It call child class method and not parent class
+		b.stop(); // It will inherit from Car Class
+		b.refuel(); 
+		b.theftSafety(); 
+		
+	}
+
+}
