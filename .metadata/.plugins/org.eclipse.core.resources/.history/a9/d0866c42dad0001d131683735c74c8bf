@@ -1,0 +1,19 @@
+package OOPConceptsPart1;
+
+public class CallByValueAndCallByReference {
+
+	public static void main(String[] args) {
+		CallByValueAndCallByReference obj = new CallByValueAndCallByReference();
+		int x = 10;
+		int y = 20;
+		obj.testSum(x, y); // Call by value or Pass by value
+		
+		
+	}
+
+	
+	public int testSum(int a,int b) {
+		int c = a+b;
+		return c;
+	}
+}
