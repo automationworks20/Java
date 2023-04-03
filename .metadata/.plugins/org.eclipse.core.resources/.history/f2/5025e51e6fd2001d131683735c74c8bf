@@ -1,0 +1,22 @@
+package Interface;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+
+		HSBCBank hs = new HSBCBank();
+		hs.credit();
+		hs.debit();
+		hs.transferMoney();
+		hs.carLoan();
+		hs.educationLoan();
+		
+		// Only overriden methods will be called
+		USBank b = new HSBCBank();
+		hs.credit();
+		hs.debit();
+		hs.transferMoney();
+		// hs.carLoan(); Cannot be called 
+	}
+
+}

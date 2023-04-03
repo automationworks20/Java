@@ -1,0 +1,18 @@
+package Interface;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+
+		HSBCBank hs = new HSBCBank();
+		hs.credit();
+		hs.debit();
+		hs.transferMoney();
+		hs.carLoan();
+		hs.educationLoan();
+		
+		USBank b = new HSBCBank();
+		System.out.println(b.credit(););
+	}
+
+}
