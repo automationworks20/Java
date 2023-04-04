@@ -1,0 +1,26 @@
+package JavaBase;
+
+import java.util.ArrayList;
+
+public class ArrayListConcept {
+
+	public static void main(String[] args) {
+		
+		ArrayList ar = new ArrayList(); // No need to define the size
+		
+		ar.add(100);
+		ar.add(200);
+		ar.add(300);
+		
+		System.out.println(ar.size());
+		
+		ar.add("Tom"); // Values of any Data Type can be added
+		ar.add('c');
+		ar.add(12.33);
+		
+		System.out.println(ar.size());
+		System.out.println(ar.get(4));
+		ar.get(6);
+	}
+
+}
